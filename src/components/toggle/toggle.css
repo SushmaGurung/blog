@@ -1,0 +1,40 @@
+.toggle{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.t-btn{
+/* background-color: #000; */
+height: 30px;
+width: 70px;
+position: relative;
+z-index: 2;
+}
+
+.dark{
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    border-radius: 30px 0 0 30px;
+}
+.light{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(194, 180, 180);
+    border-radius: 0px 30px 30px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.t-icon{
+    height: 100%;
+    width: 70%;
+    background-color: #59b256;
+    cursor: pointer;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* z-index: 33; */
+}

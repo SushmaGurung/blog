@@ -1,0 +1,39 @@
+.productlist{
+    /* height: 100vh; */
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.productlist-text{
+    width: 65%;
+}
+
+.productlist-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.productlist-desc{
+    margin: 20px 0;
+}
+.pl-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .productlist{
+        flex-direction: column;
+    }
+
+    .pl-list{
+        /* background-color: #000; */
+    }
+    
+}
